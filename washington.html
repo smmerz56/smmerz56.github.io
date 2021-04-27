@@ -10,10 +10,13 @@
 
   <!--embedded stylesheet******************************************************-->
   <style>
+    /*Specific Tag styles****************************************************/
     p {
       font-family: Arial, Helvetica, sans-serif;
       color: black;
-    }
+      /*position and alignment of elements*****************************************************/
+      margin-left: 50px;
+    } 
 
     div {
       font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +29,8 @@
   <header>
 
     <h1>
-      <em>Washington Landmarks</em>
+      <!--#ID Attribute******************************************************-->
+      <em id="IDName">Washington Landmarks</em>
     </h1>
 
     <!--Mark's Comment: Usually, you want to encapsulate text within paragraph or div or h or other 
@@ -35,24 +39,25 @@
       to mark of specific phrases within a larger text section. All this is to say, you should nest 
       this span tag within a div or p element.-->
 
-    <span style="color:rgb(100, 59, 5);font-weight:bold">Exploring the Pacific Northwest!</span>
+    <div class="firstP">Exploring the Pacific Northwest!</div>
 
     <img src="https://mjbizdaily.com/wp-content/uploads/2019/12/Washington-state-map-768x524.jpg"
       alt="Washinton-state-map" width="600" height="400" title="Olympic National Park">
 
   </header>
   <!--Class Tag******************************************************-->
-  <p class="firstP">Washington, constituent state of the United States of America. Lying at the
+  <div class="firstP">Washington, constituent state of the United States of America. Lying at the
     northwestern corner of the 48 conterminous states, it is bounded by the Canadian province of British Columbia to the
     north, the U.S. states of Idaho to the east and Oregon to the south, and the Pacific Ocean to the west. The capital
     is Olympia, located at the southern end of Puget Sound in the western part of the state. The state’s coastal
     location and excellent harbours give it a leading role in trade with Alaska, Canada, and countries of the Pacific
     Rim. Washington cities have sister cities in several countries, and their professional and trade associations
     commonly include Canadian members.
-  </p>
+  </div>
 
   <h2 style="background-color:rgb(236, 53, 53);">City of Seattle</h2>
-
+  <img src="https://www.nationsonline.org/gallery/USA/Seattle-Space-Needle.jpg" width="600" height="400"
+    title="Seattle city view">
   <p stlye="color: red"> Seattle, a city on Puget Sound in the Pacific Northwest, is surrounded by water, mountains
     and evergreen forests, and contains thousands of acres of parkland. Washington State’s largest city, it’s home to a
     large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. The futuristic Space Needle,
@@ -60,14 +65,10 @@
   </p>
 
 
-  <img src="https://www.nationsonline.org/gallery/USA/Seattle-Space-Needle.jpg" width="600" height="400"
-    title="Seattle city view">
-
-
   <h2 style="background-color:rgb(108, 146, 228);">Mountain Rainier</h2>
-
-  <!--#ID here******************************************************-->
-  <p id="IDName">
+  <img src="Mount Ranier.jpg" alt="Mount Ranier" title="Mount Ranier">
+  <!--#ID Attribute******************************************************-->
+  <p>
     An Icon on the horizon, Mt. Rainier ascends to 14,410 feet above sea level.An active volcano, Mount Rainier is the
     most glaciated peak in the contiguous U.S.A., spawning five major rivers. Subalpine wildflower meadows ring the icy
     volcano while ancient forest cloaks Mount Rainier’s lower slopes. Wildlife abounds in the park’s ecosystems. A
@@ -75,35 +76,31 @@
     western United States.
   </p>
 
-  <img src="Mount Ranier.jpg" alt="Mount Ranier" title="Mount Ranier">
-
   <h2 style="background-color:MediumSeaGreen;">Olympic National Park</h2>
+  <img src="olympic-national-park.jpg" alt="olympic-national-park" width="800" height="400"
+    title="Olympic National Park">
 
-
+  <!--Margin*****************************************************************-->
   <p style="margin-left: 50px;">The Olympic National Park is on Washington’s Olympic Peninsula located in the Pacific
     Northwest.This park is known for its natural diversity and <strong>breathtaking</strong> views! It’s beauty ranges
     over 922,651 acres of preserved wilderness!
   </p>
-  <div>
+  <p>
     In 1981, the historic Olympic National Park was named a world heritage site in recognition of it’s exceptional
     natural beauty and it’s exceptional diversity of plans and animals. Today, the Olympic peninsula is a dramatic and
     beautiful setting for many activities such as: hiking, boating, fishing, beach combing etc
-  </div>
-
-  <img src="olympic-national-park.jpg" alt="olympic-national-park" width="800" height="400"
-    title="Olympic National Park">
-
+  </p>
 
   <h2 style="background-color:rgb(241, 199, 59);">Eastern Washington</h2>
   <img src="https://www.planetware.com/wpimages/2020/04/washington-best-waterfalls-palouse-falls.jpg"
     alt="Palouse Falls" title="Palouse Falls">
   <!-- in-line style******************************************************-->
-  <p >(Palouse Falls)</p>
+  <div>(Palouse Falls)</div>
 
   <img src="https://i.pinimg.com/originals/07/9a/2e/079a2e67d1b6a54119dedc9d03bb41d5.jpg" alt="Palouse Falls"
     title="Palouse Falls">
   
-  <p style="font-style: italic;">(The Gorge Amphitheatre)</p>
+  <div style="font-style: italic;">(The Gorge Amphitheatre)</div>
 
   <p style="color:red">
     Eastern Washington is an outdoor lovers paradise. Palouse Falls State Park is a 105-acre camping park with a unique

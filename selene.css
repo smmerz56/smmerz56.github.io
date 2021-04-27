@@ -12,5 +12,7 @@ p{
 
 /*give something specific some character with an ID attribute*/
 #IDName{
+    text-align: center;
     color:black;
+    background-color:aliceblue;
 }
