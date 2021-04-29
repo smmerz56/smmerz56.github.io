@@ -11,7 +11,7 @@
         <br><br>
 
 
-        <button onclick="clickMeToo()">Click me too!</button>
+        <button onclick="clickMeToo('I was clicked!')">Click me too!</button>
 
         <div id="changeme">
             
@@ -22,8 +22,8 @@
             alert("Hello World " + x);
         }    
 
-        function clickMeToo(){
-            document.getElementById('changeme').innerHTML="this is my text";
+        function clickMeToo(x){
+            document.getElementById('changeme').innerHTML= x;
         }
     </script>
 
